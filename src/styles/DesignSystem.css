@@ -1,0 +1,128 @@
+/* Design System V0.3 */
+
+/* Headings */
+.h1 {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight;
+}
+
+.h1-important {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight !important;
+}
+
+.h2 {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight;
+}
+
+.h2-important {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight !important;
+}
+
+.h3 {
+    @apply text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight;
+}
+
+.h3-important {
+    @apply text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight !important;
+}
+
+.h4 {
+    @apply text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight;
+}
+
+.h4-important {
+    @apply text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight !important;
+}
+
+.h5 {
+    @apply text-lg sm:text-xl lg:text-2xl font-bold tracking-tight;
+}
+
+.h5-important {
+    @apply text-lg sm:text-xl lg:text-2xl font-bold tracking-tight !important;
+}
+
+.h6 {
+    @apply text-base sm:text-lg lg:text-xl font-bold tracking-tight;
+}
+
+.h6-important {
+    @apply text-base sm:text-lg lg:text-xl font-bold tracking-tight !important;
+}
+
+/* Text */
+.p-large {
+    @apply text-base sm:text-lg lg:text-xl;
+}
+
+.p-large-important {
+    @apply text-base sm:text-lg lg:text-xl !important;
+}
+
+.p {
+    @apply text-sm sm:text-base lg:text-lg;
+}
+
+.p-important {
+    @apply text-sm sm:text-base lg:text-lg !important;
+}
+
+.p-small {
+    @apply text-xs sm:text-sm lg:text-base;
+}
+
+.p-small-important {
+    @apply text-xs sm:text-sm lg:text-base !important;
+}
+    
+/* Buttons */
+.btn {
+    @apply rounded-full px-3 py-2 font-medium transform duration-500 hover:scale-[102%];
+}
+
+.btn-primary {
+    @apply btn bg-blue-500 hover:bg-blue-600 text-white border border-blue-500 hover:border-blue-600 ;
+}
+
+.btn-primary-outline {
+    @apply btn text-blue-500 border border-blue-500 hover:text-white hover:bg-blue-500 hover:border-transparent;
+}
+
+.btn-primary-outline-white {
+    @apply btn text-white border border-white hover:text-blue-500 hover:bg-white hover:border-blue-500;
+}
+
+.btn-secondary {
+    @apply btn text-white bg-gray-800 hover:bg-gray-900 border border-gray-800 hover:border-gray-900;
+}
+
+.btn-secondary-outline {
+    @apply btn text-gray-800 border-gray-800 border hover:text-white hover:bg-gray-800;
+}
+
+.btn-secondary-outline-white {
+    @apply btn text-white border-white border hover:text-gray-800 hover:bg-white;
+}
+
+.btn-tertiary {
+    @apply font-medium bg-left-bottom bg-gradient-to-r from-blue-500 to-blue-500 bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out;
+}
+
+/* Layout */
+
+.container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.container-no-padding {
+    @apply max-w-7xl mx-auto;
+}
+
+/* Inputs */
+
+.input {
+    @apply block w-full rounded-none border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm
+}
+
+.input-label {
+    @apply block text-sm font-medium text-gray-700
+}
